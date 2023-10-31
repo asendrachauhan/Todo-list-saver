@@ -1,0 +1,68 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: antiquewhite;
+ 
+}
+h2{
+  color: blue;
+  text-align: center;
+  background-color: aquamarine;
+}
+.all{
+  
+  border: 4px red solid;
+  border-block-start-color: rgb(16, 201, 198);
+  border-block-end-color: rgb(65, 42, 165);
+  background-color: rgb(113, 107, 116);
+ 
+   padding-left: 30%;
+  padding-right:30% ;
+  padding-bottom: 200px;
+  padding-top: 50px; 
+  
+}
+.head{
+display: grid;
+grid-template-columns: 200px 150px 100px;
+align-items: center;
+column-gap: 10px;
+row-gap: 10px;
+padding-top: 10px;
+}
+#input{
+  padding: 4px 2px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(8, 229, 203, 0.7);
+}
+#date{
+  padding: 4px 2px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(8, 229, 93, 0.7);
+}
+#save{
+  padding: 10px 0px;
+  background-color: rgb(24, 63, 192);
+  border: none;
+  border-radius: 5px;
+  color: rgb(249, 20, 4);
+  box-shadow: 0px 0px 2px 2px rgb(214, 197, 197) ;
+  cursor: pointer;
+  
+}
+#save:active{
+  box-shadow: none;
+}
+.delete{
+  padding: 10px 0px;
+  background-color: rgb(201, 53, 24);
+  border: none;
+  border-radius: 5px;
+  color: rgb(247, 248, 247);
+  box-shadow: 0px 0px 2px 2px rgb(186, 179, 179) ;
+  cursor: pointer;
+}
+.delete:active{
+  box-shadow: none;
+}
